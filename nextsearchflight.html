@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+	<title>On-line Travel Agency</title>
+	<link rel="stylesheet" href="./style/style.css">
+	<script src="./scripts/script.js"></script>
+</head>
+
+
+<body>
+
+<div id="header">
+<button class="button" onclick="loadHomePage()">HOME</button>
+
+<button class="button" onclick="loadyourbookingsPage()">YOUR BOOKINGS</button>
+
+<button class="button" onclick="loadSearchPage()">SEARCH FLIGHTS</button>
+</div>
+
+
+
+
+<div id="section">
+<h1 align="center">Confirmation Page</h1>
+<table align="center">
+<tr>
+    <th>From</th>
+    <th>To</th>
+    <th>Select</th>
+  </tr>
+    <tr>
+    <td>sydney</td>
+    <td>melbourne</td>
+    <td><input type="checkbox" name="select"></td>
+  </tr>
+   <tr>
+    <td>sydney</td>
+    <td>Brisbane</td>
+    <td><input type="checkbox" name="select"></td>
+  </tr>
+ <tr>
+    <td>sydney</td>
+    <td>Canberra</td>
+    <td><input type="checkbox" name="select"></td>
+  </tr>
+ <tr>
+    <td>sydney</td>
+    <td>Newcastle</td>
+    <td><input type="checkbox" name="select"></td>
+  </tr>
+ <tr>
+    <td>sydney</td>
+    <td>Broken Hill</td>
+    <td><input type="checkbox" name="select"></td>
+  </tr>
+
+
+   <tr>
+   <th><button onclick="loadSearchPage()">New Search</button></th>
+   <th colspan="2"><button onclick="flight_details()">Make Booking for Selected Flight></button></th>
+
+
+
+   </tr>
+
+
+
+
+
+
+
+
+
+</table>
+
+
+
+</div>
+
+<div id="footer">
+ UNIVERSITY OF TECHNOLOGY SYDNEY
+</div>
+</body>
+</html>

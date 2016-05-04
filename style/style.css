@@ -1,0 +1,56 @@
+.button {
+	    border: none;
+	    color: white;
+	    padding: 12px 32px;
+	    text-align: center;
+	    font-size: 12px;
+	    margin: 4px 2px;
+	    background-color: Red; 
+	    color: black;
+	}
+
+	.button:hover {
+	    background-color: white;
+	    color: black;
+	}
+	#header {
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+	    background-color:black;
+	    color:white;
+	    text-align:center;
+	    padding:auto;
+	}
+	#section {
+		width:auto;
+		height: auto;
+		margin: 0 auto;
+		background-color:white;
+	    padding:auto;
+	    text-align:top-left;
+
+	}
+	#footer {
+		width:auto;
+		height: auto;
+		margin: 0 auto;
+	    background-color:black;
+	    color:white;
+	    text-align:center;
+	   padding:auto;	 	 
+	}
+		img {
+    max-width: 100%;
+    width:1600px;height:550px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:50%
+
+}
+th, td {
+    padding: 5px;
+    text-align: center;    
+}
